@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     @IBAction func profileTapped(_ sender: Any) {
         performSegue(withIdentifier: "goToProfile", sender: self)
     }
-    
+    //m
     
     //Override
     override func viewDidLoad() {
