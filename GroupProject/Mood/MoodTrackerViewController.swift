@@ -51,6 +51,7 @@ class MoodTrackerViewController: UIViewController {
     
     
     @IBAction func moodLogTapped(_ sender: Any) {
+        performSegue(withIdentifier: "goToMoodlog", sender: self)
     }
     
     

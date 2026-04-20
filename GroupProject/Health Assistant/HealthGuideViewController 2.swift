@@ -1,21 +1,14 @@
 //
-//  HealthAssistantViewController.swift
-//  GroupProjectProposal
+//  WellnessViewController.swift
+//  GroupProject
 //
-//  Created by Mondrelle Cheek on 4/16/26.
+//  Created by Mondrelle Cheek on 4/20/26.
 //
 
 import UIKit
 
-class HealthAssistantViewController: UIViewController {
+class HealthGuideViewController: UIViewController {
 
-    
-    
-    
-    
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
