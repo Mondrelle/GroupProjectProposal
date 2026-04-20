@@ -9,6 +9,13 @@ import UIKit
 
 class HealthAssistantViewController: UIViewController {
 
+    
+    
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
