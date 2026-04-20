@@ -8,21 +8,29 @@ import UIKit
 
 class ExerciseTrackerViewController: UIViewController {
 
+    
+    @IBOutlet weak var userSteps: UITextField!
+    @IBOutlet weak var workoutDuration: UITextField!
+    
+    
+    @IBAction func feedbackTapped(_ sender: Any) {
+        //check if they filled in fields
+        //10,000 steps goal, 1,000 steps is 10 minutes
+        //At least 30 minute workout, and this is how close you are
+    }
+    
+    
+    @IBOutlet weak var feedback: UITextView!
+    
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
