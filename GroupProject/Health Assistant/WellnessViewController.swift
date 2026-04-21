@@ -62,8 +62,10 @@ class WellnessViewController: UIViewController {
         //Stress (simple scale idea 1–10)
         if stress >= 7 {
             results += "Your stress is high. Try relaxing activities.\n"
-        } else {
-            results += "Your stress level looks manageable.\n"
+        } else if stress >= 5 {
+            results += "Your stress level looks manageable. But it seems that you may be approaching higher levels soon.\n"
+        }else{
+            results += "Your stress is low.\n"
         }
         
         // Here I display the feedback

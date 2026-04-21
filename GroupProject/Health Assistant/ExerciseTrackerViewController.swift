@@ -40,11 +40,13 @@ class ExerciseTrackerViewController: UIViewController {
         }
             
         ///workout
+        let walkingMinutes = steps/100
+        let totalMinutes = minutes + walkingMinutes
         let estimatedActiveMinutes = 30 - (steps / 100)
-        results += "Note: From walking alone, you've exercised for approximately \(estimatedActiveMinutes) minutes.\n"
-        let minsLeft = 30 - minutes
-        if minutes < 30{
-            results += "You have \(minsLeft + estimatedActiveMinutes) minutes left to reach your 30 minute goal!\n"
+        results += "From walking alone, you've exercised for approximately \(walkingMinutes) minutes.\n"
+        let minsLeft = max(0,30-totalMinutes)
+        if totalMinutes < 30{
+            results += "You have \(minsLeft) minutes left to reach your 30 minute goal!\n"
         } else {
             results += "You have reached your 30 minute goal!\n"
         }
