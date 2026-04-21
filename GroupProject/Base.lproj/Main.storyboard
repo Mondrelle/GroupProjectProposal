@@ -1149,6 +1149,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Calorie Tracker" id="2sI-zf-SML"/>
                     <connections>
+                        <outlet property="feedback" destination="a7h-ta-cnH" id="ARl-GP-4ke"/>
                         <outlet property="userCals" destination="gOi-Bd-XMw" id="XhG-FE-21M"/>
                         <outlet property="userProtein" destination="XgU-Sq-mNF" id="vr7-6h-mlY"/>
                         <outlet property="userSugars" destination="WAR-eG-1yd" id="luk-iG-3W1"/>
