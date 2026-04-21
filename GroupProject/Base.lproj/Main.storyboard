@@ -847,22 +847,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="rt2-GE-dCs">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="rt2-GE-dCs">
                                 <rect key="frame" x="16" y="248" width="361" height="356"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="5UI-2w-mxU">
-                                        <rect key="frame" x="0.0" y="0.0" width="361" height="178"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="170.66666666666666"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="1Dq-FT-KNh">
-                                                <rect key="frame" x="0.0" y="0.0" width="180.66666666666666" height="178"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="1Dq-FT-KNh">
+                                                <rect key="frame" x="0.0" y="0.0" width="180.66666666666666" height="170.66666666666666"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart.text.clipboard" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="XEr-0M-q1J">
-                                                        <rect key="frame" x="0.0" y="-5.3333333333333428" width="180.66666666666666" height="167.33333333333331"/>
+                                                        <rect key="frame" x="0.0" y="-5.3333333333333428" width="180.66666666666666" height="155.33333333333331"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <gestureRecognizers/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="180.66999999999999" id="eJt-Go-QdG"/>
-                                                            <constraint firstAttribute="height" constant="157.66999999999999" id="xqQ-e3-Udx"/>
+                                                            <constraint firstAttribute="height" constant="157" id="4YE-qD-nDG"/>
                                                         </constraints>
                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
                                                         <connections>
@@ -870,10 +869,9 @@
                                                         </connections>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Health Guide" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VT5-Gv-qut">
-                                                        <rect key="frame" x="0.0" y="157.66666666666666" width="180.66666666666666" height="20.333333333333343"/>
+                                                        <rect key="frame" x="0.0" y="146.66666666666669" width="180.66666666666666" height="24"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="180.66999999999999" id="QGv-c2-wzv"/>
-                                                            <constraint firstAttribute="height" constant="20.329999999999998" id="nYD-iw-VPX"/>
+                                                            <constraint firstAttribute="height" constant="24" id="WLd-7j-Hdk"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                         <nil key="textColor"/>
@@ -882,16 +880,14 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Y4w-qe-tQI">
-                                                <rect key="frame" x="180.66666666666663" y="0.0" width="180.33333333333337" height="178"/>
+                                                <rect key="frame" x="180.66666666666663" y="0.0" width="180.33333333333337" height="170.66666666666666"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fork.knife" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="lDV-HC-q0L">
-                                                        <rect key="frame" x="0.0" y="-4.6666666666666714" width="180.33333333333334" height="165.33333333333337"/>
+                                                        <rect key="frame" x="0.0" y="-4.6666666666666714" width="180.33333333333334" height="155"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <gestureRecognizers/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="157" id="Btx-Wl-8Mc"/>
-                                                            <constraint firstAttribute="width" constant="180.33000000000001" id="RUb-Sm-iI0"/>
-                                                            <constraint firstAttribute="height" constant="157" id="h1M-9g-Las"/>
+                                                            <constraint firstAttribute="height" constant="157" id="vkI-Lf-2co"/>
                                                         </constraints>
                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
                                                         <connections>
@@ -899,10 +895,9 @@
                                                         </connections>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calorie Tracker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XQI-eL-yRD">
-                                                        <rect key="frame" x="0.0" y="157" width="180.33333333333334" height="21"/>
+                                                        <rect key="frame" x="0.0" y="146.66666666666669" width="180.33333333333334" height="24"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="180.33000000000001" id="otl-hS-pID"/>
-                                                            <constraint firstAttribute="height" constant="21" id="rAQ-1I-AOW"/>
+                                                            <constraint firstAttribute="height" constant="24" id="OxM-v0-Ch1"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                         <nil key="textColor"/>
@@ -912,20 +907,18 @@
                                             </stackView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fFF-7T-EMv">
-                                        <rect key="frame" x="0.0" y="178" width="361" height="178"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="fFF-7T-EMv">
+                                        <rect key="frame" x="0.0" y="185.66666666666669" width="361" height="170.33333333333331"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bbv-D3-OaL">
-                                                <rect key="frame" x="0.0" y="0.0" width="180.66666666666666" height="178"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="bbv-D3-OaL">
+                                                <rect key="frame" x="0.0" y="0.0" width="180" height="170.33333333333334"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="figure.run" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ag3-yz-hPe">
-                                                        <rect key="frame" x="0.0" y="-3.3333333333333286" width="180.66666666666666" height="164"/>
+                                                        <rect key="frame" x="0.0" y="-3.3333333333333286" width="180" height="152.33333333333331"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <gestureRecognizers/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="180.66999999999999" id="CnM-eI-brj"/>
-                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="157" id="HO9-4r-kRP"/>
-                                                            <constraint firstAttribute="height" constant="157" id="MnR-5b-1yM"/>
+                                                            <constraint firstAttribute="height" constant="157" id="BBK-6H-MfT"/>
                                                         </constraints>
                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
                                                         <connections>
@@ -933,10 +926,9 @@
                                                         </connections>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exercise Log" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fX5-s3-tv2">
-                                                        <rect key="frame" x="0.0" y="157" width="180.66666666666666" height="21"/>
+                                                        <rect key="frame" x="0.0" y="146.33333333333331" width="180" height="24"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="180.66999999999999" id="XYv-kY-niI"/>
-                                                            <constraint firstAttribute="height" constant="21" id="sg2-Hn-zZY"/>
+                                                            <constraint firstAttribute="height" constant="24" id="O9e-pd-yGv"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                         <nil key="textColor"/>
@@ -944,17 +936,17 @@
                                                     </label>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="an8-lF-BdU">
-                                                <rect key="frame" x="180.66666666666663" y="0.0" width="180.33333333333337" height="178"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="an8-lF-BdU">
+                                                <rect key="frame" x="181" y="0.0" width="180" height="170.33333333333334"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkmark.icloud" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="YBZ-En-qEH">
-                                                        <rect key="frame" x="0.0" y="-1.6666666666666714" width="180.33333333333334" height="159"/>
+                                                        <rect key="frame" x="0.0" y="-1.6666666666666714" width="180" height="147.33333333333337"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <gestureRecognizers/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="157" id="J7W-yG-TlK"/>
-                                                            <constraint firstAttribute="width" constant="180.33000000000001" id="ObL-1Q-07G"/>
-                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="157" id="f2c-Um-imw"/>
+                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="157" id="5kV-D9-kJh"/>
+                                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="157" id="gUT-UB-0sz"/>
+                                                            <constraint firstAttribute="height" constant="157" id="hU7-BG-Sps"/>
                                                         </constraints>
                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
                                                         <connections>
@@ -962,10 +954,9 @@
                                                         </connections>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wellness Goals" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7yW-3A-f8I">
-                                                        <rect key="frame" x="0.0" y="157" width="180.33333333333334" height="21"/>
+                                                        <rect key="frame" x="0.0" y="146.33333333333331" width="180" height="24"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="21" id="f5A-fG-U2B"/>
-                                                            <constraint firstAttribute="width" constant="180.33000000000001" id="zuP-5Q-hZW"/>
+                                                            <constraint firstAttribute="height" constant="24" id="nyS-u1-4vW"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                         <nil key="textColor"/>
@@ -984,6 +975,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="DTl-yi-TZ7"/>
                         <color key="backgroundColor" red="0.51785272360000001" green="0.91273230309999998" blue="0.8869270682" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DTl-yi-TZ7" firstAttribute="trailing" secondItem="rt2-GE-dCs" secondAttribute="trailing" constant="16" id="Ga3-Db-XCJ"/>
+                            <constraint firstItem="rt2-GE-dCs" firstAttribute="top" secondItem="DTl-yi-TZ7" secondAttribute="top" constant="86" id="Gqh-pn-68b"/>
+                            <constraint firstItem="DTl-yi-TZ7" firstAttribute="bottom" secondItem="rt2-GE-dCs" secondAttribute="bottom" constant="180" id="Wbc-Me-IH6"/>
+                            <constraint firstItem="rt2-GE-dCs" firstAttribute="leading" secondItem="DTl-yi-TZ7" secondAttribute="leading" constant="16" id="as8-EZ-1dh"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title=" Health Advisor" id="GOx-KM-vfT"/>
                 </viewController>
